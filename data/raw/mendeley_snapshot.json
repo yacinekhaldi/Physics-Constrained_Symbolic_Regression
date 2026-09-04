@@ -1,0 +1,141 @@
+{
+  "id": "5b5n3cg32n",
+  "version": 2,
+  "name": "CFD-informed machine learning surrogate dataset for thermo-hydraulic prediction in partially porous wavy channels",
+  "description": "This dataset supports the manuscript \u201cMachine Learning Surrogate for CFD-Based Prediction of Heat Transfer and Pressure Drop in Partially Porous Wavy Channels\u201d. It contains the cleaned long-form CFD-derived dataset, fixed train-test split information, trained-model outputs, prediction files, validation tables, plot data, and one final reproducibility script used to train Random Forest surrogate models for predicting average Nusselt number and pressure drop.\n\nThe dataset includes 4,608 CFD-derived samples generated from 18 geometric configurations and 256 operating-condition combinations. The input features are Reynolds number, Prandtl number, Darcy number, porosity, porous slab thickness, wave amplitude, and wavelength. The target outputs are average Nusselt number and pressure drop.",
+  "method": "1. Download and extract the complete dataset ZIP file.\n\n2. Keep the repository folder structure unchanged:\n   02_processed_data/\n   03_splits/\n   04_models/\n   05_predictions/\n   06_scripts/\n   07_tables/\n   08_plot_data/\n\n3. Install the required Python packages:\n   pip install numpy pandas scikit-learn matplotlib joblib openpyxl\n\n4. Open a terminal or command prompt in the top-level dataset folder.\n\n5. Run the reproducibility script:\n   python 06_scripts/01_train_RF_models_random80_20.py\n\n6. The script reads the cleaned long-form CFD-derived dataset from:\n   02_processed_data/ML_dataset_longform.csv\n\n   and the fixed random 80/20 split file from:\n   03_splits/random80_20_split.csv\n\n7. The script trains Random Forest surrogate models for Nuavg and DelP_Pa and saves the outputs in:\n   04_models/random80_20/\n   05_predictions/random80_20/\n   07_tables/random80_20/\n\n8. The generated prediction and metric files can be compared with the corresponding files included in the repository and with the values reported in the manuscript.",
+  "doi": "10.17632/5b5n3cg32n.2",
+  "publish_date": "2026-06-16T01:42:28.073Z",
+  "last_modification_date": "2026-06-14T22:23:09.162Z",
+  "is_confidential": false,
+  "customer": {
+    "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+    "name": "Mendeley Guests"
+  },
+  "owner": {
+    "id": "669db64e-fe15-418f-9a6b-abd595969641",
+    "first_name": "Prince",
+    "last_name": "Kumar",
+    "display_name": "Prince Kumar",
+    "$ref": "/profiles/669db64e-fe15-418f-9a6b-abd595969641",
+    "profile": {
+      "id": "669db64e-fe15-418f-9a6b-abd595969641",
+      "$ref": "/profiles/669db64e-fe15-418f-9a6b-abd595969641"
+    }
+  },
+  "categories": [
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-170589402",
+      "label": "Engineering"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-189720848",
+      "label": "Mechanical Engineering"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-210638314",
+      "label": "Thermal Engineering"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249523402",
+      "label": "Machine Learning"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-252588562",
+      "label": "Computational Fluid Dynamics"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-602136502",
+      "label": "Surrogate Modeling"
+    }
+  ],
+  "licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "customer_id": null
+  },
+  "institutions": [
+    {
+      "id": "0047f66f-6f33-4f6b-8ba9-84b0c3e659e3",
+      "name": "University of Wisconsin\u2013La Crosse",
+      "url": "http://www.uwlax.edu/Home/Future-Students/",
+      "location": {
+        "name": "La Crosse",
+        "country": "United States",
+        "country_code": "US",
+        "country_subdivision": "Wisconsin"
+      },
+      "edm:identifier": [
+        {
+          "type": "idtype:ROR",
+          "value": "https://ror.org/00x8ccz20"
+        }
+      ]
+    }
+  ],
+  "funders": [],
+  "organisational_unit_names": [],
+  "contributors": [
+    {
+      "id": "669db64e-fe15-418f-9a6b-abd595969641",
+      "first_name": "Prince",
+      "last_name": "Kumar",
+      "orcid_id": "0000-0003-3235-3380",
+      "$ref": "/profiles/669db64e-fe15-418f-9a6b-abd595969641",
+      "profile": {
+        "id": "669db64e-fe15-418f-9a6b-abd595969641",
+        "$ref": "/profiles/669db64e-fe15-418f-9a6b-abd595969641"
+      },
+      "institution": "University of Wisconsin\u2013La Crosse",
+      "institution_detail": {
+        "id": "0047f66f-6f33-4f6b-8ba9-84b0c3e659e3",
+        "name": "University of Wisconsin\u2013La Crosse",
+        "url": "http://www.uwlax.edu/Home/Future-Students/",
+        "location": {
+          "name": "La Crosse",
+          "country": "United States",
+          "country_code": "US",
+          "country_subdivision": "Wisconsin"
+        },
+        "edm:identifier": [
+          {
+            "type": "idtype:ROR",
+            "value": "https://ror.org/00x8ccz20"
+          }
+        ]
+      },
+      "contribution": "Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing \u2013 original draft, Writing \u2013 review & editing."
+    },
+    {
+      "first_name": "K. M. ",
+      "last_name": "Pandey",
+      "orcid_id": "0000-0001-7885-0353",
+      "institution": "National Institute Of Technology Silchar",
+      "institution_detail": {
+        "id": "414af3f8-2483-4585-a7f9-214fe93a3aa0",
+        "name": "National Institute Of Technology Silchar",
+        "url": "https://www.nits.ac.in",
+        "location": {
+          "name": "Silchar",
+          "country": "India",
+          "country_code": "IN",
+          "country_subdivision": "Assam"
+        },
+        "edm:identifier": [
+          {
+            "type": "idtype:ROR",
+            "value": "https://ror.org/001ws2a36"
+          }
+        ]
+      },
+      "contribution": "Supervision"
+    }
+  ],
+  "related_links": [],
+  "custom_metadata": {},
+  "is_metadata_only": false
+}

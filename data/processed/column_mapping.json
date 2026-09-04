@@ -1,0 +1,11 @@
+{
+  "Re": "Re",
+  "Pr": "Pr",
+  "Da": "Da",
+  "porosity": "epsi",
+  "thickness": "Hp_mm",
+  "amplitude": "a_mm",
+  "wavelength": "Lw_mm",
+  "Nuavg": "Nuavg",
+  "DelP_Pa": "DelP_Pa"
+}

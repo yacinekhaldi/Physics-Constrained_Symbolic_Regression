@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and the source dataset."
+title: "Reliability-Aware Physics-Constrained Symbolic Regression for Generalizable Heat-Transfer Correlation Discovery"
+version: "0.1.0"
+date-released: 2026-09-04
+authors:
+  - family-names: Khaldi
+    given-names: Yacine
+    email: khaldi.yacine@ens-ouargla.dz
+  - family-names: Azzaoui
+    given-names: Hanane
+    email: hanane.azzaoui@univ-ouargla.dz
+  - family-names: Ben Bezziane
+    given-names: Mohamed
+    email: benbezziane.mohamed@univ-ouargla.dz
+  - family-names: Benzaoui
+    given-names: Amir
+    email: a.benzaoui@univ-skikda.dz
+preferred-citation:
+  type: article
+  title: "Reliability-Aware Physics-Constrained Symbolic Regression for Generalizable Heat-Transfer Correlation Discovery"
+  authors:
+    - family-names: Khaldi
+      given-names: Yacine
+    - family-names: Azzaoui
+      given-names: Hanane
+    - family-names: Ben Bezziane
+      given-names: Mohamed
+    - family-names: Benzaoui
+      given-names: Amir
+  year: 2026

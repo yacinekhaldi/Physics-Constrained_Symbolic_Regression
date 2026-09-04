@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-09-02T20:44:17.196480+00:00",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.0",
+  "nvidia_smi": "Wed Sep  2 21:44:17 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 610.74                 KMD Version: 610.74        CUDA UMD Version: 13.3     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 4060 ...  WDDM  |   00000000:01:00.0 Off |                  N/A |\n| N/A   45C    P8              1W /   80W |      87MiB /   8188MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A          329196      C   C:\\Python310\\python.exe               N/A      |\n+-----------------------------------------------------------------------------------------+",
+  "dataset_csv": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\data\\raw\\ML-CFD-Wavy-Channel-Surrogate\\ML-CFD-Wavy-Channel-Surrogate\\02_processed_data\\ML_dataset_longform.csv",
+  "targets": [
+    "Nuavg",
+    "DelP_Pa"
+  ],
+  "random_state": 42,
+  "gp_population": 180,
+  "gp_generations": 5,
+  "full_gp": false,
+  "xgb_estimators": 600,
+  "outputs": {
+    "metrics": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\results\\tables\\metrics_by_experiment.csv",
+    "model_summary": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\results\\tables\\model_summary.csv",
+    "selection_scores": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\results\\tables\\symbolic_selection_scores.csv",
+    "predictions": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\results\\predictions\\all_predictions.csv",
+    "selected_equations": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\results\\equations\\selected_equations.json"
+  }
+}

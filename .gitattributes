@@ -1,0 +1,15 @@
+# Large data/model artifacts must use Git LFS for GitHub upload.
+data/raw/*.zip filter=lfs diff=lfs merge=lfs -text
+data/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
+results/models/**/*.joblib filter=lfs diff=lfs merge=lfs -text
+
+# Preserve text normalization for source and documentation.
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.tex text eol=lf

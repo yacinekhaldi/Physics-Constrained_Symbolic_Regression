@@ -1,0 +1,3 @@
+# Optional engine. PySR/SymbolicRegression.jl is CPU-oriented and may trigger a
+# large Julia dependency download on first use.
+pysr>=0.19

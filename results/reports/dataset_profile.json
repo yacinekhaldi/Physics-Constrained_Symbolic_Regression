@@ -1,0 +1,87 @@
+{
+  "n_rows": 4608,
+  "features": [
+    "Re",
+    "Pr",
+    "Da",
+    "porosity",
+    "thickness",
+    "amplitude",
+    "wavelength"
+  ],
+  "targets": [
+    "Nuavg",
+    "DelP_Pa"
+  ],
+  "feature_ranges": {
+    "Re": {
+      "min": 25.0,
+      "max": 500.0,
+      "mean": 218.75,
+      "std": 181.46538926197468
+    },
+    "Pr": {
+      "min": 3.0,
+      "max": 50.0,
+      "mean": 19.75,
+      "std": 18.606114586339622
+    },
+    "Da": {
+      "min": 1e-06,
+      "max": 0.001,
+      "mean": 0.00027775,
+      "std": 0.00041878417770971246
+    },
+    "porosity": {
+      "min": 0.7,
+      "max": 0.85,
+      "mean": 0.7749999999999999,
+      "std": 0.055901699437494755
+    },
+    "thickness": {
+      "min": 0.1,
+      "max": 0.3,
+      "mean": 0.2,
+      "std": 0.0816496580927726
+    },
+    "amplitude": {
+      "min": 0.0,
+      "max": 0.3,
+      "mean": 0.15,
+      "std": 0.0957427107756338
+    },
+    "wavelength": {
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 3.6666666666666665,
+      "std": 1.699673171197595
+    }
+  },
+  "target_ranges": {
+    "Nuavg": {
+      "min": 6.596,
+      "max": 57.349,
+      "mean": 17.365791666666667,
+      "std": 9.035649766639064
+    },
+    "DelP_Pa": {
+      "min": 3.5391007,
+      "max": 4277.312647,
+      "mean": 324.3969884476562,
+      "std": 659.4097111020268
+    }
+  },
+  "n_geometry_combinations": 18,
+  "source_csv": "F:\\_My Work\\AI Thermal Fluids\\2-Physics-Constrained_Symbolic_Regression\\reliability_certified_sr\\data\\raw\\ML-CFD-Wavy-Channel-Surrogate\\ML-CFD-Wavy-Channel-Surrogate\\02_processed_data\\ML_dataset_longform.csv",
+  "column_mapping": {
+    "Re": "Re",
+    "Pr": "Pr",
+    "Da": "Da",
+    "porosity": "epsi",
+    "thickness": "Hp_mm",
+    "amplitude": "a_mm",
+    "wavelength": "Lw_mm",
+    "Nuavg": "Nuavg",
+    "DelP_Pa": "DelP_Pa"
+  }
+}
